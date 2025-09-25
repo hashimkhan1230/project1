@@ -107,7 +107,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: #333;
+  color: black ;
 }
 
 /* Skills Section */
@@ -169,7 +169,7 @@ body {
 
 .project-card h3 {
   margin: 5px 0;
-  color: #f39c12;
+  color: black;
 }
 
 /* Footer */
@@ -217,4 +217,5 @@ body {
   font-size: 14px;
   color: green;
 }
+
 
