@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hashim Khan Portfolio</title>
+  <title>Hamburger Menu Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,11 +11,18 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">Hashim Khan</div>
+    <div class="hamburger" id="hamburger">☰</div>
+  </nav>
+
+  <!-- Menu Overlay -->
+  <div class="menu-overlay" id="menuOverlay">
+    <span class="close-btn" id="closeBtn">×</span>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
+
     </ul>
-  </nav>
+  </div>
 
   <!-- Home Section -->
   <section id="home" class="home">
@@ -23,11 +30,10 @@
       <h1>Hello, I'm <span>Hashim Khan</span></h1>
       <p>A passionate <strong>Computer Science Student</strong> and aspiring <strong>Full Stack Developer</strong>.</p>
       <a href="#contact" class="btn">Hire Me</a>
-      <BR> 
+      <br>
       <a href="about.html" class="btn btn-outline">Know More</a>
     </div>
   </section>
-
 
   <!-- Footer Section -->
   <footer class="footer" id="contact">
@@ -58,7 +64,7 @@
         <h3>Contact</h3>
         <p>Email: Hashimkhanmai0@gmail.com</p>
         <p>Phone: +91 8859876802</p>
-        <p>Location: delhi</p>
+        <p>Location: Delhi</p>
       </div>
       
     </div>
@@ -68,9 +74,6 @@
     </div>
   </footer>
 
-  
-
+  <script src="script.js"></script>
 </body>
 </html>
-
-
