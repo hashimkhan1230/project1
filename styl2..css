@@ -100,14 +100,14 @@ body {
   font-size: 28px;
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #f39c12;
+  color: #0d0d0d;
 }
 
 .home-content p {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: black ;
+  color: #333;
 }
 
 /* Skills Section */
@@ -147,6 +147,7 @@ body {
   transform: rotate(15deg) scale(1.2);
 }
 
+
 .skill span {
   font-weight: bold;
   font-size: 14px;
@@ -163,12 +164,16 @@ body {
 }
 
 .project-card:hover {
-  border-color: black;
+  border-color:#000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .project-card h3 {
   margin: 5px 0;
+  color: black;
+}
+
+.project-card h2{
   color: black;
 }
 
@@ -196,7 +201,7 @@ body {
 }
 
 .footer a:hover {
-  color: #00ff00;
+  color:pink;
 }
 
 .social-icons a {
@@ -215,7 +220,5 @@ body {
   padding-top: 20px;
   text-align: center;
   font-size: 14px;
-  color: green;
+  color: white;
 }
-
-
