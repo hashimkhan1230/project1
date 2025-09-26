@@ -32,7 +32,7 @@ body {
   left: 0;
   width: 100%;
   height: 0; /* hidden initially */
-  background: white;   /* 🔥 background changed to white */
+  background: #222;   /* 🔥 background changed to white */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .menu-overlay ul li a {
-  color: black;   /* text color black for visibility */
+  color: white;   /* text color black for visibility */
   text-decoration: none;
   font-size: 24px;
   transition: color 0.3s;
@@ -225,3 +225,4 @@ body {
 margin-bottom: 10px;
  }
 }
+
