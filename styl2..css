@@ -160,7 +160,7 @@ body {
   padding: 15px;
   margin: 10px 0;
   transition: 0.3s;
-  background-image: url(background.jpg);
+  background-image: url(background2.jpg);
 }
 
 .project-card:hover {
@@ -222,4 +222,5 @@ body {
   font-size: 14px;
   color: white;
 }
+
 
