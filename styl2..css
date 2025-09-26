@@ -84,7 +84,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(background.jpg);
+  background-image: url(background2.jpg);
 }
 
 .home-content {
@@ -222,3 +222,4 @@ body {
   font-size: 14px;
   color: white;
 }
+
